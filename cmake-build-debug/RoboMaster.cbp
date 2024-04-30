@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RoboMaster"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RoboMaster.elf">
+				<Option output="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/RoboMaster.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F767xx"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Inc"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/c610"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Device/ST/STM32F7xx/Include"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/include"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 RoboMaster.elf"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RoboMaster.elf/fast">
+				<Option output="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/RoboMaster.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F767xx"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Inc"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/c610"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Device/ST/STM32F7xx/Include"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/arm-none-eabi"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/backward"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/include"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed"/>
+					<Add directory="/opt/st/stm32cubeclt_1.15.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 RoboMaster.elf/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Inc/FreeRTOSConfig.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Inc/main.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Inc/stm32f7xx_hal_conf.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Inc/stm32f7xx_it.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Src/freertos.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Src/main.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Src/stm32f7xx_hal_msp.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Src/stm32f7xx_hal_timebase_tim.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Src/stm32f7xx_it.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Src/syscalls.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Src/sysmem.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Src/system_stm32f7xx.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Core/Startup/startup_stm32f767zitx.s">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Device/ST/STM32F7xx/LICENSE.txt">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/CMSIS/LICENSE.txt">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_can.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_bus.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_cortex.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_dma.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_exti.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_pwr.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_rcc.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_system.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usart.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_utils.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/LICENSE.txt">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/portmacro.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/STM32F767ZITX_FLASH.ld">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/c610/c610_command.c">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/c610/c610_command.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/c610/c610_def.h">
+			<Option target="RoboMaster.elf"/>
+		</Unit>
+		<Unit filename="/home/masafumi/STM32CubeIDE/workspace_1.14.0/RoboMaster/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
