@@ -29,7 +29,7 @@ void processing_data(uint8_t id)
     } else if (diff_angle < -4096) {
         _c610_data[id].rotation_count++;
     }
-    _c610_data[id].angle = _c610_data[id].rotation_count * 8096 + _c610_raw_data[id].raw_angle - _c610_data[id].offset_angle;
+    _c610_data[id].angle = _c610_data[id].rotation_count * 6.28318f + (_c610_raw_data[id].raw_angle - _c610_data[id].offset_angle) * 6.28318f / 8192;
     _c610_data[id].speed = _c610_raw_data[id].raw_speed;
     _c610_data[id].torque_current = _c610_raw_data[id].raw_torque_current;
 
